@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkxml">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:orientation="horizontal"
+        >
+    </GridView>
+    <TextView
+        android:id="@+id/price"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridView"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/price2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:text=""
+        android:textColor="#cf070c"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_below="@+id/price2"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/button_drawable"
+        android:text="开始"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/button_back"
+        android:layout_below="@+id/button_start"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_drawable"
+        android:text="返回主菜单"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkxml"
+    tools:context=".MoreActivity2">
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="430dp"
+        android:background="@drawable/border_input_box"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:hint="请输入玩家1的姓名"
+        android:textColor="@color/orange"
+        android:textSize="28sp" />
+    <Button
+        android:id="@+id/button_sure2"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/button_drawable"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</RelativeLayout>

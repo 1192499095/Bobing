@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkxml"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_more"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button_drawable"
+        android:text="多人游戏"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/button_drawable"
+        android:text="单人游戏"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_rule"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/button_drawable"
+        android:text="规则"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</RelativeLayout>

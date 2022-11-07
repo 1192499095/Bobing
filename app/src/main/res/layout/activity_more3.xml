@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkxml"
+    tools:context=".MoreActivity3">
+    <TextView
+        android:id="@+id/tv_moreName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textColor="@color/yellow"
+        android:textSize="35sp">
+    </TextView>
+
+    <GridView
+        android:id="@+id/more_gridView"
+        android:layout_below="@+id/tv_moreName"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:orientation="horizontal"
+        >
+    </GridView>
+
+    <TextView
+        android:id="@+id/more_price"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/more_gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/more_price2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/more_price"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/button_moreStart"
+        android:layout_below="@+id/more_price2"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_drawable"
+        android:text="开始"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</RelativeLayout>
