@@ -109,7 +109,11 @@ public class MoreActivity3 extends AppCompatActivity {
                 if (!str.equals("再接再厉") && !str.equals("秀才") && !str.equals("举人") && !str.equals("进士") && !str.equals("探花") && !str.equals("榜眼") && !str.equals("状元")) {
                     more_price2.setText("状元");
                 }
+                if(loop==person-1){
+                    bt_start.setText("查看结果");
+                }
                 if (loop == person) {
+                    bt_start.setText("开始");
                     Intent intent = new Intent(MoreActivity3.this, ResultActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putSerializable("person", (Serializable) p);
